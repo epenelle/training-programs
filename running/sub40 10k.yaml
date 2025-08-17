@@ -1,5 +1,15 @@
+# Mardi (qualité VMA/intervalle court) : vitesse et économie de course.
+# Jeudi (tempo/intervalle spécifique) : endurance au seuil ou proche de l’allure 10 km.
+# Samedi (sortie longue progressive) : endurance aérobie + un bloc spécifique.
+# Dimanche ou lundi (récup) : footing très léger ou off.
+
+# Semaines 1-2 : Construire l’endurance spécifique → intervalles 800 m – 1 km, tempo par blocs de 2 km.
+# Semaines 3-4 : Monter la densité → intervalles 1 km – 2 km proches allure 10 km, sortie longue avec + de km à allure cible.
+# Semaines 5-6 : Spécifique → séances continues 6-8 km à 4:00/km, longs blocs (3 × 3 km).
+# Semaine 7 (taper) : Réduire volume (≈50%), garder 1-2 séances de rappel allure 10 km (genre 3 × 1 km à 4:00/km).
 weeks:
   - week: 1
+    goal: "Construire l’endurance spécifique"
     sessions:
       - day: Dimanche
         type: Footing léger
@@ -27,6 +37,7 @@ weeks:
         notes: ""
 
   - week: 2
+    goal: "Construire l’endurance spécifique"
     sessions:
       - day: Dimanche
         type: Footing
@@ -54,6 +65,7 @@ weeks:
         notes: ""
 
   - week: 3
+    goal: "Monter la densité"
     sessions:
       - day: Dimanche
         type: Footing
@@ -81,6 +93,7 @@ weeks:
         notes: ""
 
   - week: 4
+    goal: "Monter la densité"
     sessions:
       - day: Dimanche
         type: Footing
@@ -108,6 +121,7 @@ weeks:
         notes: ""
 
   - week: 5
+    goal: "Spécifique"
     sessions:
       - day: Dimanche
         type: Footing
@@ -135,6 +149,7 @@ weeks:
         notes: ""
 
   - week: 6
+    goal: "Spécifique"
     sessions:
       - day: Dimanche
         type: Footing
@@ -162,6 +177,7 @@ weeks:
         notes: ""
 
   - week: 7
+    goal: "Réduire volume"
     sessions:
       - day: Dimanche
         type: Footing
