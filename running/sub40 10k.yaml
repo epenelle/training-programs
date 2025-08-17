@@ -1,0 +1,195 @@
+weeks:
+  - week: 1
+    sessions:
+      - day: Dimanche
+        type: Footing léger
+        details: "5-6km récupération pour commencer le bloc"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Mardi
+        type: Intervalles
+        details: "6x800m @3:55/km, r=90s"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Jeudi
+        type: Tempo
+        details: "3x2km @4:00/km, r=2 minutes"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Samedi
+        type: Longue sortie
+        details: "12km dont 2km @4:10/km + 2km @4:00/km"
+        done: false
+        rpe: null
+        notes: ""
+
+  - week: 2
+    sessions:
+      - day: Dimanche
+        type: Footing
+        details: "7km récupération"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Mardi
+        type: Intervalles
+        details: "8x600m @3:50/km, r=75s"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Jeudi
+        type: Tempo
+        details: "5km continu @4:05/km"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Samedi
+        type: Longue sortie
+        details: "13km dont 3km @4:00/km"
+        done: false
+        rpe: null
+        notes: ""
+
+  - week: 3
+    sessions:
+      - day: Dimanche
+        type: Footing
+        details: "7km facile"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Mardi
+        type: Intervalles
+        details: "6x1km @4:00/km, r=90s"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Jeudi
+        type: Tempo
+        details: "3x3km @4:00/km, r=2 minutes"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Samedi
+        type: Longue sortie
+        details: "14km dont 4km @4:00/km"
+        done: false
+        rpe: null
+        notes: ""
+
+  - week: 4
+    sessions:
+      - day: Dimanche
+        type: Footing
+        details: "7km récupération"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Mardi
+        type: Intervalles
+        details: "10x400m @3:45/km, r=1 minute"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Jeudi
+        type: Tempo
+        details: "6km continu @4:00/km"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Samedi
+        type: Longue sortie
+        details: "15km dont 5km @4:00/km"
+        done: false
+        rpe: null
+        notes: ""
+
+  - week: 5
+    sessions:
+      - day: Dimanche
+        type: Footing
+        details: "7km facile"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Mardi
+        type: Intervalles
+        details: "5x1200m @3:55/km, r=2 minutes"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Jeudi
+        type: Tempo
+        details: "4x2km @4:00/km, r=2 minutes"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Samedi
+        type: Longue sortie
+        details: "14km dont 6km @4:00/km"
+        done: false
+        rpe: null
+        notes: ""
+
+  - week: 6
+    sessions:
+      - day: Dimanche
+        type: Footing
+        details: "6km facile"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Mardi
+        type: Intervalles
+        details: "6x1km @3:55-4:00/km, r=75s"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Jeudi
+        type: Tempo
+        details: "8km continu @4:00/km"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Samedi
+        type: Longue sortie
+        details: "12km dont 6km @4:00/km"
+        done: false
+        rpe: null
+        notes: ""
+
+  - week: 7
+    sessions:
+      - day: Dimanche
+        type: Footing
+        details: "6km facile"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Mardi
+        type: Affûtage
+        details: "3x1km @4:00/km, r=2 minutes"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Jeudi
+        type: Rappel
+        details: "20 minutes @4:10/km"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Samedi
+        type: Footing
+        details: "6km facile"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Dimanche_course
+        type: Course
+        details: "10km sub40 - 5 octobre"
+        done: false
+        rpe: null
+        notes: ""
