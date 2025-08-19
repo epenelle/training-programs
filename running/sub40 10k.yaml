@@ -23,9 +23,9 @@ weeks:
       - day: Mardi
         type: Tempo
         details: "3x2km @4:00/km, r=2 minutes"
-        done: false
-        rpe: null
-        notes: ""
+        done: true
+        rpe: 6
+        notes: "Pauses plus longues, douleur au genou"
       - day: Jeudi
         type: Intervalles
         details: "6x800m @3:55/km, r=90s"
