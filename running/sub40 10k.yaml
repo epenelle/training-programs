@@ -21,14 +21,14 @@ weeks:
         rpe: 6
         notes: "Départ lent, un peu de plaisir en augmentant la vitesse à la fin."
       - day: Mardi
-        type: Intervalles
-        details: "6x800m @3:55/km, r=90s"
+        type: Tempo
+        details: "3x2km @4:00/km, r=2 minutes"
         done: false
         rpe: null
         notes: ""
       - day: Jeudi
-        type: Tempo
-        details: "3x2km @4:00/km, r=2 minutes"
+        type: Intervalles
+        details: "6x800m @3:55/km, r=90s"
         done: false
         rpe: null
         notes: ""
