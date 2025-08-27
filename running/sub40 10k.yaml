@@ -51,8 +51,8 @@ weeks:
       - day: Mercredi
         type: Intervalles
         details: "8x600m @3:50/km, r=75s"
-        done: false
-        rpe: null
+        done: true
+        rpe: 8
         notes: ""
       - day: Jeudi
         type: Tempo
