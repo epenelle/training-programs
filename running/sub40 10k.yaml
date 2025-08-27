@@ -29,26 +29,26 @@ weeks:
       - day: Jeudi
         type: Intervalles
         details: "6x800m @3:55/km, r=90s"
-        done: false
-        rpe: null
-        notes: ""
+        done: true
+        rpe: 7
+        notes: "Forcer d'arrêter après 3 rep. : Douleur au genou + inconfort digestif"
       - day: Samedi
         type: Longue sortie
         details: "12km dont 2km @4:10/km + 2km @4:00/km"
-        done: false
-        rpe: null
-        notes: ""
+        done: true
+        rpe: 1
+        notes: "Test run : 4km"
 
   - week: 2
     goal: "Construire l’endurance spécifique"
     sessions:
-      - day: Dimanche
-        type: Footing
-        details: "7km récupération"
-        done: false
-        rpe: null
-        notes: ""
-      - day: Mardi
+      - day: Lundi
+        type: Pyramid
+        details: "7km test du genou"
+        done: true
+        rpe: 5
+        notes: "Accélération jusqu'à 3km, puis décélération."
+      - day: Mercredi
         type: Intervalles
         details: "8x600m @3:50/km, r=75s"
         done: false
