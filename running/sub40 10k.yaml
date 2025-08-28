@@ -53,7 +53,7 @@ weeks:
         details: "8x600m @3:50/km, r=75s"
         done: true
         rpe: 8
-        notes: ""
+        notes: "Allure plus rapide que spécifié, entre 3:40-3:50/km"
       - day: Jeudi
         type: Tempo
         details: "5km continu @4:05/km"
