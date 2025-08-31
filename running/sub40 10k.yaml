@@ -57,8 +57,8 @@ weeks:
       - day: Jeudi
         type: Tempo
         details: "5km continu @4:05/km"
-        done: false
-        rpe: null
+        done: true
+        rpe: 8
         notes: ""
       - day: Samedi
         type: Longue sortie
