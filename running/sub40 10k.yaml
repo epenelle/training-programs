@@ -54,13 +54,13 @@ weeks:
         done: true
         rpe: 8
         notes: "Allure plus rapide que spécifié, entre 3:40-3:50/km"
-      - day: Jeudi
+      - day: Vendredi
         type: Tempo
         details: "5km continu @4:05/km"
         done: true
         rpe: 8
         notes: ""
-      - day: Samedi
+      - day: Dimanche
         type: Longue sortie
         details: "13km dont 3km @4:00/km"
         done: false
