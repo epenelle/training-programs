@@ -75,12 +75,12 @@ weeks:
         details: "7km facile"
         done: false
         rpe: null
-        notes: ""
+        notes: "skipped"
       - day: Mardi
         type: Intervalles
         details: "6x1km @4:00/km, r=90s"
-        done: false
-        rpe: null
+        done: true
+        rpe: 7
         notes: ""
       - day: Jeudi
         type: Tempo
