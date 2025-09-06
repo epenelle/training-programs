@@ -85,9 +85,9 @@ weeks:
       - day: Jeudi
         type: Tempo
         details: "3x3km @4:00/km, r=2 minutes"
-        done: false
-        rpe: null
-        notes: ""
+        done: true
+        rpe: 9
+        notes: "2e paus plus longues ~5 minutes, allure plus le te au dernier segment"
       - day: Samedi
         type: Longue sortie
         details: "14km dont 4km @4:00/km"
