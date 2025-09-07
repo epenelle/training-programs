@@ -87,13 +87,13 @@ weeks:
         details: "3x3km @4:00/km, r=2 minutes"
         done: true
         rpe: 9
-        notes: "2e paus plus longues ~5 minutes, allure plus le te au dernier segment"
+        notes: "2e pause plus longues ~5 minutes, allure plus le te au dernier segment"
       - day: Samedi
         type: Longue sortie
         details: "14km dont 4km @4:00/km"
-        done: false
-        rpe: null
-        notes: ""
+        done: true
+        rpe: 6
+        notes: "km 6-10 en 4:00"
 
   - week: 4
     goal: "Monter la densité"
