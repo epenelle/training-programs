@@ -110,15 +110,15 @@ weeks:
         done: true
         rpe: 6
         notes: ""
-      - day: Jeudi
+      - day: Mercredi
         type: Tempo
         details: "6km continu @4:00/km"
         done: false
         rpe: null
         notes: ""
-      - day: Samedi
-        type: Longue sortie
-        details: "15km dont 5km @4:00/km"
+      - day: Vendredi
+        type: Gym
+        details: "Exercices de physio, musculation, étirements"
         done: false
         rpe: null
         notes: ""
@@ -127,26 +127,26 @@ weeks:
     goal: "Spécifique"
     sessions:
       - day: Dimanche
+        type: Longue sortie
+        details: "15km dont 5km @4:00/km"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Lundi
         type: Footing
         details: "7km facile"
         done: false
         rpe: null
         notes: ""
-      - day: Mardi
+      - day: Mercredi
         type: Intervalles
         details: "5x1200m @3:55/km, r=2 minutes"
         done: false
         rpe: null
         notes: ""
-      - day: Jeudi
+      - day: Vendredi
         type: Tempo
         details: "4x2km @4:00/km, r=2 minutes"
-        done: false
-        rpe: null
-        notes: ""
-      - day: Samedi
-        type: Longue sortie
-        details: "14km dont 6km @4:00/km"
         done: false
         rpe: null
         notes: ""
@@ -155,26 +155,26 @@ weeks:
     goal: "Spécifique"
     sessions:
       - day: Dimanche
+        type: Longue sortie
+        details: "14km dont 6km @4:00/km"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Lundi
         type: Footing
         details: "6km facile"
         done: false
         rpe: null
         notes: ""
-      - day: Mardi
+      - day: Mercredi
         type: Intervalles
         details: "6x1km @3:55-4:00/km, r=75s"
         done: false
         rpe: null
         notes: ""
-      - day: Jeudi
+      - day: Vendredi
         type: Tempo
         details: "8km continu @4:00/km"
-        done: false
-        rpe: null
-        notes: ""
-      - day: Samedi
-        type: Longue sortie
-        details: "12km dont 6km @4:00/km"
         done: false
         rpe: null
         notes: ""
@@ -183,18 +183,24 @@ weeks:
     goal: "Réduire volume"
     sessions:
       - day: Dimanche
+        type: Longue sortie
+        details: "12km dont 6km @4:00/km"
+        done: false
+        rpe: null
+        notes: ""
+      - day: Lundi
         type: Footing
         details: "6km facile"
         done: false
         rpe: null
         notes: ""
-      - day: Mardi
+      - day: Mercredi
         type: Affûtage
         details: "3x1km @4:00/km, r=2 minutes"
         done: false
         rpe: null
         notes: ""
-      - day: Jeudi
+      - day: Vendredi
         type: Rappel
         details: "20 minutes @4:10/km"
         done: false
