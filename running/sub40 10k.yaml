@@ -101,14 +101,14 @@ weeks:
       - day: Dimanche
         type: Footing
         details: "7km récupération"
-        done: false
-        rpe: null
-        notes: ""
-      - day: Mardi
+        done: true
+        rpe: 4
+        notes: "beaucoup de douleur au genou droit en début de sortie"
+      - day: Lundi
         type: Intervalles
         details: "10x400m @3:45/km, r=1 minute"
-        done: false
-        rpe: null
+        done: true
+        rpe: 6
         notes: ""
       - day: Jeudi
         type: Tempo
