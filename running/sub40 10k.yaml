@@ -113,9 +113,9 @@ weeks:
       - day: Mercredi
         type: Tempo
         details: "6km continu @4:00/km"
-        done: false
-        rpe: null
-        notes: ""
+        done: true
+        rpe: 9
+        notes: "Pause forcée à 600m de la fin."
       - day: Vendredi
         type: Gym
         details: "Exercices de physio, musculation, étirements"
