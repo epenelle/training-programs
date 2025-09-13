@@ -119,7 +119,7 @@ weeks:
       - day: Vendredi
         type: Gym
         details: "Exercices de physio, musculation, étirements"
-        done: false
+        done: true
         rpe: null
         notes: ""
 
