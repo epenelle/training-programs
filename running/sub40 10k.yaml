@@ -129,7 +129,7 @@ weeks:
       - day: Samedi
         type: Longue sortie
         details: "15km dont 5km @4:00/km"
-        done: false
+        done: true
         rpe: null
         notes: ""
       - day: Lundi
