@@ -126,7 +126,7 @@ weeks:
   - week: 5
     goal: "Spécifique"
     sessions:
-      - day: Dimanche
+      - day: Samedi
         type: Longue sortie
         details: "15km dont 5km @4:00/km"
         done: false
