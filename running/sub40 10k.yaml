@@ -130,8 +130,8 @@ weeks:
         type: Longue sortie
         details: "15km dont 5km @4:00/km"
         done: true
-        rpe: null
-        notes: ""
+        rpe: 4
+        notes: "Course et marche, km 10-15 plus rapides"
       - day: Lundi
         type: Footing
         details: "7km facile"
