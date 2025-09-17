@@ -132,11 +132,11 @@ weeks:
         done: true
         rpe: 4
         notes: "Course et marche, km 10-15 plus rapides"
-      - day: Lundi
+      - day: Dimanche
         type: Footing
         details: "7km facile"
-        done: false
-        rpe: null
+        done: true
+        rpe: 4
         notes: ""
       - day: Mercredi
         type: Intervalles
