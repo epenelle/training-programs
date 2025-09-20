@@ -212,7 +212,7 @@ weeks:
         done: false
         rpe: null
         notes: ""
-      - day: Dimanche_course
+      - day: Dimanche
         type: Course
         details: "10km sub40 - 5 octobre"
         done: false
