@@ -141,14 +141,14 @@ weeks:
       - day: Mercredi
         type: Intervalles
         details: "5x1200m @3:55/km, r=2 minutes"
-        done: false
-        rpe: null
+        done: true
+        rpe: 6
         notes: ""
       - day: Vendredi
         type: Tempo
         details: "4x2km @4:00/km, r=2 minutes"
-        done: false
-        rpe: null
+        done: true
+        rpe: 7
         notes: ""
 
   - week: 6
