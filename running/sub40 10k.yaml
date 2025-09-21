@@ -168,7 +168,7 @@ weeks:
         notes: ""
       - day: Mercredi
         type: Intervalles
-        details: "6x1km @3:55-4:00/km, r=75s"
+        details: "2 x (10x200) @ 33-35s"
         done: false
         rpe: null
         notes: ""
@@ -190,7 +190,7 @@ weeks:
         notes: ""
       - day: Lundi
         type: Footing
-        details: "6km facile"
+        details: "6x1km @3:40-3:45/km, r=180s"
         done: false
         rpe: null
         notes: ""
