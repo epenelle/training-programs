@@ -1,0 +1,226 @@
+plan:
+  start_date: 2025-10-06
+  race_date: 2025-12-07
+  race_goal: "Demi-marathon sub 1h30 (Barbade)"
+  notes: |
+    Conditions chaudes et humides à la Barbade — adapter allure à la météo
+    Objectif secondaire : exécuter un plan discipliné avec structure stable
+    RPE 1–10, où 10 = effort maximal court, 7–8 = tempo soutenu, 5 = footing confortable
+
+weeks:
+  - week: 1
+    start: 2025-10-06
+    goal: "Transition post-10k et reprise du volume"
+    sessions:
+      - day: Monday
+        type: Progressive
+        details: "6 km dont 2x1 km @4:00–4:05/km, récup 90s"
+        rpe: 6
+      - day: Tuesday
+        type: Hockey
+        details: ""
+        rpe: 7
+      - day: Thursday
+        type: Tempo
+        details: "3x2 km @4:10/km, récup 2 min jog"
+        rpe: 6
+      - day: Saturday
+        type: Long Run
+        details: "12 km @4:40/km, finir 2 km @4:15/km"
+        rpe: 6
+      - day: Sunday
+        type: Recovery
+        details: "6 km @5:15/km"
+        rpe: 4
+
+  - week: 2
+    start: 2025-10-13
+    goal: "Reprendre rythme et endurance spécifique"
+    sessions:
+      - day: Monday
+        type: Progressive
+        details: "7 km avec 3x1 km @4:00/km"
+        rpe: 6
+      - day: Tuesday
+        type: Hockey
+        details: ""
+        rpe: 7
+      - day: Thursday
+        type: Tempo
+        details: "4x2 km @4:08/km, récup 2 min"
+        rpe: 7
+      - day: Saturday
+        type: Long Run
+        details: "14 km @4:40/km, finir 3 km @4:10/km"
+        rpe: 6–7
+      - day: Sunday
+        type: Recovery
+        details: "6 km easy"
+        rpe: 4
+
+  - week: 3
+    start: 2025-10-20
+    goal: "Développer la vitesse aérobie et la tolérance au tempo"
+    sessions:
+      - day: Monday
+        type: Intervalles courts
+        details: "10x400m @3:50/km, récup 60s"
+        rpe: 7
+      - day: Tuesday
+        type: Hockey
+        details: ""
+        rpe: 7
+      - day: Thursday
+        type: Tempo
+        details: "5 km continu @4:10/km"
+        rpe: 7
+      - day: Saturday
+        type: Long Run
+        details: "16 km dont 4 km @4:10/km"
+        rpe: 7
+      - day: Sunday
+        type: Recovery
+        details: "6 km @5:15/km"
+        rpe: 4
+
+  - week: 4
+    start: 2025-10-27
+    goal: "Augmenter densité et seuil proche allure semi"
+    sessions:
+      - day: Monday
+        type: Progressive
+        details: "8 km avec 4x1 km @3:58–4:02/km, récup 90s"
+        rpe: 7
+      - day: Tuesday
+        type: Hockey
+        details: ""
+        rpe: 7
+      - day: Thursday
+        type: Intervalles longs
+        details: "3x3 km @4:05/km, récup 3 min"
+        rpe: 8
+      - day: Saturday
+        type: Long Run
+        details: "18 km, derniers 5 km @4:08/km"
+        rpe: 7–8
+      - day: Sunday
+        type: Recovery
+        details: "6 km @5:15/km"
+        rpe: 4
+
+  - week: 5
+    start: 2025-11-03
+    goal: "Spécifique demi-marathon"
+    sessions:
+      - day: Monday
+        type: Intervalles courts
+        details: "12x400m @3:50/km, récup 60s"
+        rpe: 7
+      - day: Tuesday
+        type: Hockey
+        details: ""
+        rpe: 7
+      - day: Thursday
+        type: Tempo long
+        details: "2x5 km @4:05/km, récup 3 min"
+        rpe: 8
+      - day: Saturday
+        type: Long Run
+        details: "20 km, derniers 5 km @4:05/km"
+        rpe: 8
+      - day: Sunday
+        type: Recovery
+        details: "6 km easy"
+        rpe: 4
+
+  - week: 6
+    start: 2025-11-10
+    goal: "Plein volume, travail spécifique + endurance"
+    sessions:
+      - day: Monday
+        type: Progressive
+        details: "8 km avec 4x1 km @3:55–4:00/km"
+        rpe: 7
+      - day: Tuesday
+        type: Hockey
+        details: ""
+        rpe: 7
+      - day: Thursday
+        type: Tempo long
+        details: "3x4 km @4:05/km, récup 3 min"
+        rpe: 8
+      - day: Saturday
+        type: Long Run
+        details: "22 km, derniers 6 km @4:05/km"
+        rpe: 8
+      - day: Sunday
+        type: Recovery
+        details: "6 km easy"
+        rpe: 4
+
+  - week: 7
+    start: 2025-11-17
+    goal: "Taper partiel, maintien intensité"
+    sessions:
+      - day: Monday
+        type: Intervalles courts
+        details: "8x600m @3:55/km, récup 75s"
+        rpe: 7
+      - day: Tuesday
+        type: Hockey
+        details: ""
+        rpe: 7
+      - day: Thursday
+        type: Tempo
+        details: "6 km @4:08/km"
+        rpe: 7
+      - day: Saturday
+        type: Long Run
+        details: "16 km, derniers 3 km @4:05/km"
+        rpe: 7
+      - day: Sunday
+        type: Recovery
+        details: "6 km easy"
+        rpe: 4
+
+  - week: 8
+    start: 2025-11-24
+    goal: "Taper, baisser volume, garder fréquence cardiaque élevée"
+    sessions:
+      - day: Monday
+        type: Progressive
+        details: "6 km avec 2x1 km @4:00/km"
+        rpe: 6
+      - day: Tuesday
+        type: Hockey
+        details: ""
+        rpe: 7
+      - day: Thursday
+        type: Tempo
+        details: "3 km @4:05/km + 2x1 km @4:00/km"
+        rpe: 6
+      - day: Saturday
+        type: Long Run
+        details: "12–14 km @4:25/km"
+        rpe: 6
+      - day: Sunday
+        type: Recovery
+        details: "6 km easy"
+        rpe: 4
+
+  - week: 9
+    start: 2025-12-01
+    goal: "Race week – fraîcheur et confiance"
+    sessions:
+      - day: Monday
+        type: Short Tempo
+        details: "5 km avec 2x1 km @4:00/km"
+        rpe: 6
+      - day: Thursday
+        type: Shakeout
+        details: "4 km @5:00/km + 3x100m strides"
+        rpe: 4
+      - day: Sunday
+        type: Race Day
+        details: "Demi-marathon @4:00–4:05/km (objectif sub 1h25)"
+        rpe: 10
