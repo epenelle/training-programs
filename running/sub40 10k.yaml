@@ -1,181 +1,206 @@
+# Overview : 
+# Mardi (qualité VMA/intervalle court) : vitesse et économie de course.
+# Jeudi (tempo/intervalle spécifique) : endurance au seuil ou proche de l’allure 10 km.
+# Samedi (sortie longue progressive) : endurance aérobie + un bloc spécifique.
+# Dimanche ou lundi (récup) : footing très léger ou off.
+#
+# Semaines 1-2 : Construire l’endurance spécifique → intervalles 800 m – 1 km, tempo par blocs de 2 km.
+# Semaines 3-4 : Monter la densité → intervalles 1 km – 2 km proches allure 10 km, sortie longue avec + de km à allure cible.
+# Semaines 5-6 : Spécifique → séances continues 6-8 km à 4:00/km, longs blocs (3 × 3 km).
+# Semaine 7 (taper) : Réduire volume (≈50%), garder 1-2 séances de rappel allure 10 km (genre 3 × 1 km à 4:00/km).
+#
+# RPE sur une échelle 0-10
 weeks:
   - week: 1
+    goal: "Construire l’endurance spécifique"
     sessions:
       - day: Dimanche
         type: Footing léger
         details: "5-6km récupération pour commencer le bloc"
-        done: false
-        rpe: null
-        notes: ""
+        done: true
+        rpe: 6
+        notes: "Départ lent, un peu de plaisir en augmentant la vitesse à la fin."
       - day: Mardi
-        type: Intervalles
-        details: "6x800m @3:55/km, r=90s"
-        done: false
-        rpe: null
-        notes: ""
-      - day: Jeudi
         type: Tempo
         details: "3x2km @4:00/km, r=2 minutes"
-        done: false
-        rpe: null
-        notes: ""
+        done: true
+        rpe: 6
+        notes: "Pauses plus longues, douleur au genou"
+      - day: Jeudi
+        type: Intervalles
+        details: "6x800m @3:55/km, r=90s"
+        done: true
+        rpe: 7
+        notes: "Forcer d'arrêter après 3 rep. : Douleur au genou + inconfort digestif"
       - day: Samedi
         type: Longue sortie
         details: "12km dont 2km @4:10/km + 2km @4:00/km"
-        done: false
-        rpe: null
-        notes: ""
+        done: true
+        rpe: 1
+        notes: "Test run : 4km"
 
   - week: 2
+    goal: "Construire l’endurance spécifique"
     sessions:
-      - day: Dimanche
-        type: Footing
-        details: "7km récupération"
-        done: false
-        rpe: null
-        notes: ""
-      - day: Mardi
+      - day: Lundi
+        type: Pyramid
+        details: "7km test du genou"
+        done: true
+        rpe: 5
+        notes: "Accélération jusqu'à 3km, puis décélération."
+      - day: Mercredi
         type: Intervalles
         details: "8x600m @3:50/km, r=75s"
-        done: false
-        rpe: null
-        notes: ""
-      - day: Jeudi
+        done: true
+        rpe: 8
+        notes: "Allure plus rapide que spécifié, entre 3:40-3:50/km"
+      - day: Vendredi
         type: Tempo
         details: "5km continu @4:05/km"
-        done: false
-        rpe: null
+        done: true
+        rpe: 8
         notes: ""
-      - day: Samedi
+      - day: Dimanche
         type: Longue sortie
         details: "13km dont 3km @4:00/km"
-        done: false
-        rpe: null
-        notes: ""
+        done: true
+        rpe: 6
+        notes: "km 6 à 9 en 4:00"
 
   - week: 3
+    goal: "Monter la densité"
     sessions:
       - day: Dimanche
         type: Footing
         details: "7km facile"
         done: false
         rpe: null
-        notes: ""
+        notes: "skipped"
       - day: Mardi
         type: Intervalles
         details: "6x1km @4:00/km, r=90s"
-        done: false
-        rpe: null
+        done: true
+        rpe: 7
         notes: ""
       - day: Jeudi
         type: Tempo
         details: "3x3km @4:00/km, r=2 minutes"
-        done: false
-        rpe: null
-        notes: ""
+        done: true
+        rpe: 9
+        notes: "2e pause plus longues ~5 minutes, allure plus le te au dernier segment"
       - day: Samedi
         type: Longue sortie
         details: "14km dont 4km @4:00/km"
-        done: false
-        rpe: null
-        notes: ""
+        done: true
+        rpe: 6
+        notes: "km 6-10 en 4:00"
 
   - week: 4
+    goal: "Monter la densité"
     sessions:
       - day: Dimanche
         type: Footing
         details: "7km récupération"
-        done: false
-        rpe: null
-        notes: ""
-      - day: Mardi
+        done: true
+        rpe: 4
+        notes: "beaucoup de douleur au genou droit en début de sortie"
+      - day: Lundi
         type: Intervalles
         details: "10x400m @3:45/km, r=1 minute"
-        done: false
-        rpe: null
+        done: true
+        rpe: 6
         notes: ""
-      - day: Jeudi
+      - day: Mercredi
         type: Tempo
         details: "6km continu @4:00/km"
-        done: false
-        rpe: null
-        notes: ""
-      - day: Samedi
-        type: Longue sortie
-        details: "15km dont 5km @4:00/km"
-        done: false
+        done: true
+        rpe: 9
+        notes: "Pause forcée à 600m de la fin."
+      - day: Vendredi
+        type: Gym
+        details: "Exercices de physio, musculation, étirements"
+        done: true
         rpe: null
         notes: ""
 
   - week: 5
+    goal: "Spécifique"
     sessions:
+      - day: Samedi
+        type: Longue sortie
+        details: "15km dont 5km @4:00/km"
+        done: true
+        rpe: 4
+        notes: "Course et marche, km 10-15 plus rapides"
       - day: Dimanche
         type: Footing
         details: "7km facile"
-        done: false
-        rpe: null
+        done: true
+        rpe: 4
         notes: ""
-      - day: Mardi
+      - day: Mercredi
         type: Intervalles
         details: "5x1200m @3:55/km, r=2 minutes"
-        done: false
-        rpe: null
+        done: true
+        rpe: 6
         notes: ""
-      - day: Jeudi
+      - day: Vendredi
         type: Tempo
         details: "4x2km @4:00/km, r=2 minutes"
-        done: false
-        rpe: null
+        done: true
+        rpe: 7
         notes: ""
-      - day: Samedi
+
+  - week: 6
+    goal: "Spécifique"
+    sessions:
+      - day: Dimanche
         type: Longue sortie
         details: "14km dont 6km @4:00/km"
         done: false
         rpe: null
         notes: ""
-
-  - week: 6
-    sessions:
-      - day: Dimanche
+      - day: Lundi
         type: Footing
         details: "6km facile"
         done: false
         rpe: null
         notes: ""
-      - day: Mardi
+      - day: Mercredi
         type: Intervalles
-        details: "6x1km @3:55-4:00/km, r=75s"
+        details: "2 x (10x200) @ 33-35s"
         done: false
         rpe: null
         notes: ""
-      - day: Jeudi
+      - day: Vendredi
         type: Tempo
         details: "8km continu @4:00/km"
         done: false
         rpe: null
         notes: ""
-      - day: Samedi
+
+  - week: 7
+    goal: "Réduire volume"
+    sessions:
+      - day: Dimanche
         type: Longue sortie
         details: "12km dont 6km @4:00/km"
         done: false
         rpe: null
         notes: ""
-
-  - week: 7
-    sessions:
-      - day: Dimanche
+      - day: Lundi
         type: Footing
-        details: "6km facile"
+        details: "6x1km @3:40-3:45/km, r=180s"
         done: false
         rpe: null
         notes: ""
-      - day: Mardi
+      - day: Mercredi
         type: Affûtage
         details: "3x1km @4:00/km, r=2 minutes"
         done: false
         rpe: null
         notes: ""
-      - day: Jeudi
+      - day: Vendredi
         type: Rappel
         details: "20 minutes @4:10/km"
         done: false
@@ -187,7 +212,7 @@ weeks:
         done: false
         rpe: null
         notes: ""
-      - day: Dimanche_course
+      - day: Dimanche
         type: Course
         details: "10km sub40 - 5 octobre"
         done: false
